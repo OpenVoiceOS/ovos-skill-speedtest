@@ -14,22 +14,17 @@
 
 import speedtest
 
-from adapt.intent import IntentBuilder
-from mycroft.skills.core import MycroftSkill, intent_handler
-from mycroft.util.log import getLogger
+from ovos_utils.log import LOG
+from ovos_workshop.decorators import intent_handler
+from ovos_workshop.intents import IntentBuilder
+from ovos_workshop.skills import OVOSSkill
 
-logger = getLogger(__name__)
 
-__author__ = 'luke5sky'
+class SpeedTestSkill(OVOSSkill):
 
-class speedtestSkill(MycroftSkill):
-
-    def __init__(self):
-        super(speedtestSkill, self).__init__(name="speedtestSkill")
-        
-    @intent_handler(IntentBuilder("SpeedtestIntent").require("Run").require("Speedtest").build())
+    @intent_handler(IntentBuilder("SpeedtestIntent").require("Run").require("Speedtest"))
     def handle_speedtest__intent(self, message):
-        logger.info("speedtest started")
+        LOG.info("speedtest started")
         try:
             self.speak_dialog('running')
             servers = []
@@ -45,13 +40,5 @@ class speedtestSkill(MycroftSkill):
             self.speak_dialog('result', {'DOWN': downspeed,'UP': upspeed})
         except:
             self.speak_dialog("error")
-        logger.info("speedtest finished")
+        LOG.info("speedtest finished")
 
-    def shutdown(self):
-        super(speedtestSkill, self).shutdown()
-
-    def stop(self):
-        pass
-
-def create_skill():
-    return speedtestSkill()
