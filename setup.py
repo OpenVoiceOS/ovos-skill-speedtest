@@ -2,6 +2,7 @@
 from setuptools import setup
 from os.path import abspath, dirname, join, isfile, isdir
 from os import walk
+import os
 
 
 URL = "https://github.com/OpenVoiceOS/ovos-skill-speedtest"
