@@ -1,8 +1,8 @@
 # <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/signal.svg' card_color='#40DBB0' width='50' height='50' style='vertical-align:bottom'/> Speedtest
-Ask Mycroft to run a simple speedtest.
+Ask OVOS to run a simple speedtest.
 
 ## About 
-Run a speedtest with Mycroft.
+Run a speedtest with OVOS
 This skill uses the speedtest-cli (https://github.com/sivel/speedtest-cli) which runs an internet bandwidth test using speedtest.net.
 
 Be aware that this speedtest relies on the capability of the network-adapter of your Mycroft device.
