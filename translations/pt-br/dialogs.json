@@ -1,0 +1,11 @@
+{
+    "result.dialog": [
+        "A sua velocidade de download \u00e9 de {DOWN} megabits por segundo e sua velocidade de upload \u00e9 de {UP} megabits por segundo."
+    ],
+    "running.dialog": [
+        "Executando o teste de velocidade agora. J\u00e1 volto com os resultados."
+    ],
+    "error.dialog": [
+        "Ocorreu um erro e n\u00e3o consegui executar um teste de velocidade... me desculpe."
+    ]
+}

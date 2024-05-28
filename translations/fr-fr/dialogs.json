@@ -1,0 +1,11 @@
+{
+    "result.dialog": [
+        "Votre vitesse de t\u00e9l\u00e9chargement est de {DOWN} Megabit par seconde et votre vitesse d'envoi est de {UP} Megabit par seconde."
+    ],
+    "running.dialog": [
+        "D\u00e9but du test de vitesse, je (reviens|serai de retour) dans (quelque temps|un moment) avec les (mesures|r\u00e9sultats)."
+    ],
+    "error.dialog": [
+        "Une erreur est survenue, je n'ai pas pu effectu\u00e9 le test de vitesse... d\u00e9sol\u00e9."
+    ]
+}

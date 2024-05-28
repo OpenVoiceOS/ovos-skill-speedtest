@@ -1,0 +1,11 @@
+{
+    "result.dialog": [
+        "De download snelheid is {DOWN} Megabit per seconde en de upload snelheid is {UP} Megabit per seconde."
+    ],
+    "running.dialog": [
+        "De snelheidstest wordt nu gestart, ik ben zo terug met de resultaten."
+    ],
+    "error.dialog": [
+        "Er is iets fout gegaan, ik kon geen snelheidstest uitvoeren... sorry."
+    ]
+}

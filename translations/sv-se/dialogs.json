@@ -1,0 +1,11 @@
+{
+    "result.dialog": [
+        "Din nedladdningshastighet \u00e4r {DOWN} Megabit per sekund och din uppladdningshastighet \u00e4r {UP} Megabit per sekund."
+    ],
+    "running.dialog": [
+        "Startar speedtest nu, jag kommer tillbaka med resultaten om ett \u00f6gonblick."
+    ],
+    "error.dialog": [
+        "Det uppstod ett fel, jag kunde inte k\u00f6ra en speedtest... ledsen."
+    ]
+}

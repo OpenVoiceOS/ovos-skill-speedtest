@@ -1,0 +1,11 @@
+{
+    "result.dialog": [
+        "\u0130ndirme h\u0131z\u0131n saniyede {DOWN} Megabit ve y\u00fckleme h\u0131z\u0131n saniyede {UP} Megabit."
+    ],
+    "running.dialog": [
+        "H\u0131z testi \u015fimdi ba\u015fl\u0131yor, sonu\u00e7lar gelince bildirece\u011fim."
+    ],
+    "error.dialog": [
+        "Bir hata olu\u015ftu, h\u0131z testini \u00e7al\u0131\u015ft\u0131ramad\u0131m... \u00fczg\u00fcn\u00fcm."
+    ]
+}
