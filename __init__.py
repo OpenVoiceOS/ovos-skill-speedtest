@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+import time
 
 import speedtest
 
@@ -27,12 +28,11 @@ class SpeedTestSkill(OVOSSkill):
         LOG.info("speedtest started")
         try:
             self.speak_dialog('running')
+            self.enclosure.deactivate_mouth_events()
             self.enclosure.mouth_think()
             servers = []
             speed = speedtest.Speedtest()
-            self.enclosure.eyes_look("r")
             speed.get_servers(servers)
-            self.enclosure.eyes_look("l")
             speed.get_best_server()
             self.enclosure.eyes_look("d")
             speed.download()
@@ -41,12 +41,16 @@ class SpeedTestSkill(OVOSSkill):
             speed.results.share()
             result = speed.results.dict()
             LOG.info("speedtest finished")
-            self.enclosure.eyes_look("c")
+            self.enclosure.eyes_narrow()
             downspeed = ('%.2f' % float((result["download"]) / 1000000))
             upspeed = ('%.2f' % float((result["upload"]) / 1000000))
             self.enclosure.mouth_text(f"UP: {upspeed} MB/S     DOWN: {downspeed} MB/S     ")
-            self.speak_dialog('result', {'DOWN': downspeed, 'UP': upspeed})
+            self.speak_dialog('result', {'DOWN': downspeed, 'UP': upspeed}, wait=True)
+            time.sleep(2)  # let speed test results scroll for a bit
+            self.enclosure.eyes_fill(100)
         except:
             self.speak_dialog("error")
+
+        self.enclosure.activate_mouth_events()
         self.enclosure.mouth_reset()
         self.enclosure.eyes_reset()
