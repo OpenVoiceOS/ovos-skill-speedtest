@@ -1,9 +1,18 @@
 {
     "Run.voc": [
-        "run"
+        "run",
+        "start",
+        "perform",
+        "execute",
+        "benchmark",
+        "evaluate"
     ],
     "Speedtest.voc": [
-        "speedtest",
-        "speed test"
+        "speed test",
+        "internet speed test",
+        "internet connection test",
+        "internet test",
+        "wifi speed",
+        "wifi connection"
     ]
 }

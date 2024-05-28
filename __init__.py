@@ -23,7 +23,7 @@ from ovos_workshop.skills import OVOSSkill
 class SpeedTestSkill(OVOSSkill):
 
     @intent_handler(IntentBuilder("SpeedtestIntent").require("Run").require("Speedtest"))
-    def handle_speedtest__intent(self, message):
+    def handle_speedtest_intent(self, message):
         LOG.info("speedtest started")
         try:
             self.speak_dialog('running')
@@ -41,4 +41,3 @@ class SpeedTestSkill(OVOSSkill):
         except:
             self.speak_dialog("error")
         LOG.info("speedtest finished")
-
