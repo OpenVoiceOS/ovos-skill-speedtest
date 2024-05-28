@@ -1,9 +1,0 @@
-{   
-    "utterance": "run speedtest",
-    "intent_type": "SpeedtestIntent",
-    "expected_dialog": "result",
-    "intent": {
-        "Run": "run",
-        "Speedtest": "speedtest"
-    }
-}
