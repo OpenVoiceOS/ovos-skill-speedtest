@@ -47,7 +47,7 @@ with open("README.md", "r") as f:
 
 setup(
     name=PYPI_NAME,
-    version="0.0.0a1",
+    version="0.1.0a1",
     long_description=long_description,
     url=URL,
     install_requires=get_requirements("requirements.txt"),
