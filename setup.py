@@ -72,6 +72,7 @@ setup(
     name=PYPI_NAME,
     version=get_version(),
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url=URL,
     install_requires=get_requirements("requirements.txt"),
     author="luke5sky",
