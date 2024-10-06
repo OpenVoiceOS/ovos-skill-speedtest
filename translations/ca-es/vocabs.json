@@ -1,0 +1,18 @@
+{
+  "Run.voc": [
+    "fes",
+    "inicia",
+    "realitza",
+    "executa",
+    "prova",
+    "avalua"
+  ],
+  "Speedtest.voc": [
+    "test de velocitat",
+    "test de velocitat d'internet",
+    "test de connexió a Internet",
+    "test d'internet",
+    "velocitat wifi",
+    "connexió wifi"
+  ]
+}
