@@ -1,0 +1,11 @@
+{
+  "result.dialog": [
+    "La vostra velocitat de baixada és de {DOWN} megabits per segon i la de pujada de {UP} megabits per segon."
+  ],
+  "running.dialog": [
+    "Comença la prova de velocitat, tornaré amb els resultats en un moment."
+  ],
+  "error.dialog": [
+    "S'ha produït un error, no he pogut executar una prova de velocitat."
+  ]
+}
