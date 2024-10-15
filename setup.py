@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from setuptools import setup
 from os.path import abspath, dirname, join, isfile, isdir
-from os import walk
+from os import walk, path
 import os
 
 
@@ -65,7 +65,7 @@ def get_version():
         version += f"a{alpha}"
     return version
 
-with open("README.md", "r") as f:
+with open(path.join(path.abspath(path.dirname(__file__)), "README.md"), "r") as f:
     long_description = f.read()
 
 setup(
