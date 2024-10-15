@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from setuptools import setup
 from os.path import abspath, dirname, join, isfile, isdir
-from os import walk
+from os import walk, path
 import os
 
 
