@@ -1,17 +1,17 @@
 # Changelog
 
-## [0.2.1a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.2.1a1) (2024-10-15)
+## [V0.2.1a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.2.1a2) (2024-10-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.2.0a1...0.2.1a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.2.1a2...V0.2.1a2)
+
+## [0.2.1a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.2.1a2) (2024-10-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.2.1...0.2.1a2)
 
 **Merged pull requests:**
 
-- fix:long description [\#4](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/4) ([JarbasAl](https://github.com/JarbasAl))
-- Prepare Next Version [\#3](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/3) ([JarbasAl](https://github.com/JarbasAl))
-
-## [V0.2.0a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.2.0a1) (2024-09-02)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.1.0...V0.2.0a1)
+- Add Catalan translation [\#2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/2) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Add Catalan translation [\#1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/1) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
