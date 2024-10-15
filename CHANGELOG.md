@@ -1,12 +1,16 @@
 # Changelog
 
-## [V0.1.0](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.1.0) (2024-09-02)
+## [Unreleased](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.1.0a2...V0.1.0)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.2.0a1...HEAD)
 
-## [V0.1.0a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.1.0a2) (2024-09-02)
+**Merged pull requests:**
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/da691175486c752e65face046a79084990a31b19...V0.1.0a2)
+- Prepare Next Version [\#3](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/3) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.2.0a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.2.0a1) (2024-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.1.0...V0.2.0a1)
 
 
 
