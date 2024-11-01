@@ -1,2 +1,2 @@
 speedtest-cli
-ovos_workshop>=0.0.12,<2.0.0
+ovos_workshop>=0.0.12,<3.0.0
