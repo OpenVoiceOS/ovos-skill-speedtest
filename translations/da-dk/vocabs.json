@@ -4,15 +4,15 @@
     "start",
     "udfør",
     "udfør",
-    null,
+    "benchmark",
     "vurder"
   ],
   "Speedtest.voc": [
     "hastighedstest",
     "internet hastighedstest",
-    null,
-    null,
-    null,
-    null
+    "internetforbindelse test",
+    "internet test",
+    "wifi hastighed",
+    "wifi forbindelse"
   ]
 }
