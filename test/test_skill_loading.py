@@ -4,18 +4,18 @@ from os.path import dirname
 from ovos_plugin_manager.skills import find_skill_plugins
 from ovos_utils.messagebus import FakeBus
 from ovos_workshop.skill_launcher import PluginSkillLoader, SkillLoader
-from ovos_skill_confucius_quotes import ConfuciusQuotesSkill
+from ovos_skill_speedtest import SpeedTestSkill
 
 
 class TestSkillLoading(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        self.skill_id = "ovos-skill-confucius-quotes.openvoiceos"
+        self.skill_id = "ovos-skill-speedtest.openvoiceos"
         self.path = dirname(dirname(__file__))
 
     def test_from_class(self):
         bus = FakeBus()
-        skill = ConfuciusQuotesSkill()
+        skill = SpeedTestSkill()
         skill._startup(bus, self.skill_id)
         self.assertEqual(skill.bus, bus)
         self.assertEqual(skill.skill_id, self.skill_id)

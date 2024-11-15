@@ -30,6 +30,7 @@ class SpeedTestSkill(OVOSSkill):
             self.speak_dialog('running')
             self.enclosure.deactivate_mouth_events()
             self.enclosure.mouth_think()
+            self.gui.show_animated_image("wifi-speed.gif")
             servers = []
             speed = speedtest.Speedtest()
             speed.get_servers(servers)
@@ -44,6 +45,7 @@ class SpeedTestSkill(OVOSSkill):
             self.enclosure.eyes_narrow()
             downspeed = ('%.2f' % float((result["download"]) / 1000000))
             upspeed = ('%.2f' % float((result["upload"]) / 1000000))
+            self.gui.show_text(f"UP: {upspeed} MB/S\nDOWN: {downspeed} MB/S")
             self.enclosure.mouth_text(f"UP: {upspeed} MB/S     DOWN: {downspeed} MB/S     ")
             self.speak_dialog('result', {'DOWN': downspeed, 'UP': upspeed}, wait=True)
             time.sleep(2)  # let speed test results scroll for a bit
@@ -54,3 +56,4 @@ class SpeedTestSkill(OVOSSkill):
         self.enclosure.activate_mouth_events()
         self.enclosure.mouth_reset()
         self.enclosure.eyes_reset()
+        self.gui.release()

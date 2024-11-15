@@ -18,7 +18,7 @@ PLUGIN_ENTRY_POINT = f'{SKILL_NAME.lower()}.{SKILL_AUTHOR.lower()}={SKILL_PKG}:{
 
 
 def find_resource_files():
-    resource_base_dirs = ("locale", "ui", "vocab", "locale", "regex", "res")
+    resource_base_dirs = ("locale", "gui")
     base_dir = abspath(dirname(__file__))
     package_data = ["*.json"]
     for res in resource_base_dirs:
