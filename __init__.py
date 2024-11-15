@@ -45,6 +45,7 @@ class SpeedTestSkill(OVOSSkill):
             self.enclosure.eyes_narrow()
             downspeed = ('%.2f' % float((result["download"]) / 1000000))
             upspeed = ('%.2f' % float((result["upload"]) / 1000000))
+            self.gui.show_text(f"UP: {upspeed} MB/S\nDOWN: {downspeed} MB/S")
             self.enclosure.mouth_text(f"UP: {upspeed} MB/S     DOWN: {downspeed} MB/S     ")
             self.speak_dialog('result', {'DOWN': downspeed, 'UP': upspeed}, wait=True)
             time.sleep(2)  # let speed test results scroll for a bit
