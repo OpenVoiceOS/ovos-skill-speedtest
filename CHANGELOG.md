@@ -1,29 +1,16 @@
 # Changelog
 
-## [0.2.5a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.2.5a1) (2024-11-15)
+## [0.3.0a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.0a1) (2024-11-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.2.4a1...0.2.5a1)
-
-**Merged pull requests:**
-
-- fix: skill json [\#10](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/10) ([JarbasAl](https://github.com/JarbasAl))
-
-## [0.2.4a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.2.4a1) (2024-11-15)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.2.4a2...0.2.4a1)
-
-## [0.2.4a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.2.4a2) (2024-11-15)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.2.3...0.2.4a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.2.5...0.3.0a1)
 
 **Merged pull requests:**
 
-- de-de/translate [\#9](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/9) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- da-dk/translate [\#8](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/8) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- feat: gui animation [\#13](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/13) ([JarbasAl](https://github.com/JarbasAl))
 
-## [V0.2.3](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.2.3) (2024-11-01)
+## [V0.2.5](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.2.5) (2024-11-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.2.3...V0.2.3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.2.5...V0.2.5)
 
 
 
