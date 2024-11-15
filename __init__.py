@@ -30,6 +30,7 @@ class SpeedTestSkill(OVOSSkill):
             self.speak_dialog('running')
             self.enclosure.deactivate_mouth_events()
             self.enclosure.mouth_think()
+            self.gui.show_animated_image("wifi-speed.gif")
             servers = []
             speed = speedtest.Speedtest()
             speed.get_servers(servers)
@@ -54,3 +55,4 @@ class SpeedTestSkill(OVOSSkill):
         self.enclosure.activate_mouth_events()
         self.enclosure.mouth_reset()
         self.enclosure.eyes_reset()
+        self.gui.release()
