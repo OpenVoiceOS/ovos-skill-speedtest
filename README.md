@@ -17,8 +17,8 @@ If a Raspberry Pi 3 B - connected to WiFi - runs Mycroft you won't get more than
 * "Hey mycroft, run a speedtest"
 
 ## Credits 
-Lukas Gangel (@luke5sky)
-
+- Original skill by Lukas Gangel (@luke5sky)
+- wifi speed animation by [flaticon.com](https://www.flaticon.com/free-animated-icon/wifi-speed_15591468)
 
 ## Category
 Daily
