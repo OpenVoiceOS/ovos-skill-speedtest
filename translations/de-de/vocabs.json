@@ -1,9 +1,18 @@
 {
-    "Run.voc": [
-        "laufen"
-    ],
-    "Speedtest.voc": [
-        "Geschwindigkeitstest",
-        "Geschwindigkeitstest"
-    ]
+  "Run.voc": [
+    "starte",
+    "beginne",
+    "durchführen\nführe durch",
+    "ausführen\nführe aus",
+    "Benchmark",
+    "auswerten\nwerte aus"
+  ],
+  "Speedtest.voc": [
+    "Geschwindigkeitstest\nspeed test\nspeedtest",
+    "Geschwindigkeitstest",
+    "Internetverbindungstest",
+    "Internettest",
+    "DSL speed\nDSL Geschwindigkeit\nWLAN speed\nWLAN Geschwindigkeit",
+    "WLAN Verbindung"
+  ]
 }
