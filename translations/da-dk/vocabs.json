@@ -1,9 +1,18 @@
 {
-    "Run.voc": [
-        "k\u00f8r"
-    ],
-    "Speedtest.voc": [
-        "hastighedstest",
-        "hastighedstest"
-    ]
+  "Run.voc": [
+    "kør",
+    "start",
+    "udfør",
+    "udfør",
+    "benchmark",
+    "vurder"
+  ],
+  "Speedtest.voc": [
+    "hastighedstest",
+    "internet hastighedstest",
+    "internetforbindelse test",
+    "internet test",
+    "wifi hastighed",
+    "wifi forbindelse"
+  ]
 }
