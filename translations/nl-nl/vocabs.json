@@ -1,9 +1,18 @@
 {
-    "Run.voc": [
-        "start"
-    ],
-    "Speedtest.voc": [
-        "speedtest",
-        "speedtest"
-    ]
+  "Run.voc": [
+    "doe een",
+    "begin een",
+    "start een",
+    "voer snelheidstest uit",
+    "meet de",
+    "controleer de"
+  ],
+  "Speedtest.voc": [
+    "speedtest",
+    "internet snelheidstest",
+    "internet verbinding test",
+    "internet test",
+    "wifi snelheid",
+    "wifi-verbinding"
+  ]
 }
