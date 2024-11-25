@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-speedtest.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-speedtest",
+  "name": "Hastighedstest",
+  "description": "kører en internetbåndbreddetest ved hjælp af speedtest.net",
+  "examples": [
+    "kør en speedtest"
+  ],
+  "tags": [
+    "diagnostik",
+    "information",
+    "information",
+    "IoT",
+    "hastighed",
+    "internet"
+  ]
+}
