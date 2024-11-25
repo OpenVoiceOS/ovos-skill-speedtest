@@ -1,25 +1,17 @@
 # Changelog
 
-## [0.3.1a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.1a2) (2024-11-19)
+## [0.3.3a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.3a1) (2024-11-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.1a1...0.3.1a2)
-
-**Merged pull requests:**
-
-- workshop 3.0.0 [\#17](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/17) ([JarbasAl](https://github.com/JarbasAl))
-- small improvements nl-nl [\#16](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/16) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
-## [0.3.1a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.1a1) (2024-11-16)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.3.0...0.3.1a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.3.2...0.3.3a1)
 
 **Merged pull requests:**
 
-- nl-nl translation [\#15](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/15) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- da-dk/translate [\#20](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/20) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Add Catalan translation [\#19](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/19) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
-## [V0.3.0](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.3.0) (2024-11-15)
+## [V0.3.2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.3.2) (2024-11-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.0...V0.3.0)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.2...V0.3.2)
 
 
 
