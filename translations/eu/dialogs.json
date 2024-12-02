@@ -1,0 +1,11 @@
+{
+    "result.dialog": [
+        "Zure deskarga-abidura {DOWN} Megabit segundoko da, eta zure gora kargatzeko abiadura, berriz, {UP} Megabit segundoko."
+    ],
+    "running.dialog": [
+        "Abiadura-froga hasten orain. Berehala itzuliko naiz, emaitza eta guzti."
+    ],
+    "error.dialog": [
+        "Errore bat gertatu da. Ezin izan dut abiadura-froga egin... Barkatu."
+    ]
+}

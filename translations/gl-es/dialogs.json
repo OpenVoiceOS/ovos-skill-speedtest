@@ -1,0 +1,11 @@
+{
+    "result.dialog": [
+        "A túa velocidade de descarga é de {DOWN} megabits por segundo e a túa velocidade de carga é de {UP} megabits por segundo."
+    ],
+    "running.dialog": [
+        "A iniciar a proba de velocidade agora. Nun momentiño volvo cos resultados."
+    ],
+    "error.dialog": [
+        "Produciuse un erro. Non puiden facer unha proba de velocidade... Síntocho."
+    ]
+}
