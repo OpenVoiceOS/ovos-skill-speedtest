@@ -1,8 +1,8 @@
 # Changelog
 
-## [0.3.3a3](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.3a3) (2024-12-02)
+## [0.3.3a4](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.3a4) (2024-12-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.3a2...0.3.3a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.3a2...0.3.3a4)
 
 **Merged pull requests:**
 
