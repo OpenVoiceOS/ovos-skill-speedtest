@@ -6,6 +6,6 @@
     "A Iniciar speedtest agora, voltarei com os resultados daqui a pouco."
   ],
   "error.dialog": [
-    null
+    "Ocorreu um erro, não consegui executar um teste rápido... peço desculpa."
   ]
 }
