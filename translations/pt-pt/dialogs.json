@@ -1,0 +1,11 @@
+{
+  "result.dialog": [
+    "A sua velocidade de download é de {DOWN} Megabits por segundo e a sua velocidade de upload é de {UP} Megabits por segundo."
+  ],
+  "running.dialog": [
+    "A Iniciar speedtest agora, voltarei com os resultados daqui a pouco."
+  ],
+  "error.dialog": [
+    null
+  ]
+}
