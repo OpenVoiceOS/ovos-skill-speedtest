@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-speedtest.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-speedtest",
+  "name": "Teste de velocidade",
+  "description": "executa um teste de largura de banda da Internet utilizando o speedtest.net",
+  "examples": [
+    "realize um teste de velocidade"
+  ],
+  "tags": [
+    "diagnóstico",
+    "informação",
+    "informação",
+    "IoT",
+    "velocidade",
+    "Internet"
+  ]
+}
