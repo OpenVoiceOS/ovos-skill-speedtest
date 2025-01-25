@@ -1,8 +1,29 @@
 # Changelog
 
+## [0.3.3a5](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.3a5) (2025-01-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.3a5...0.3.3a5)
+
+**Merged pull requests:**
+
+- fix automations [\#28](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/28) ([JarbasAl](https://github.com/JarbasAl))
+- pt-pt/translate [\#27](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/27) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.3.3a5](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.3a5) (2024-12-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.3a4...0.3.3a5)
+
+**Merged pull requests:**
+
+- de-de/translate [\#26](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/26) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
 ## [0.3.3a4](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.3a4) (2024-12-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.3a2...0.3.3a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.3a3...0.3.3a4)
+
+## [0.3.3a3](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.3a3) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.3a2...0.3.3a3)
 
 **Merged pull requests:**
 
