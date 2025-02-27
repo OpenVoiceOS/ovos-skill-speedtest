@@ -1,0 +1,18 @@
+{
+  "Run.voc": [
+    "correr",
+    "iniciar",
+    "realizar",
+    "executar",
+    null,
+    "avaliar"
+  ],
+  "Speedtest.voc": [
+    "teste de velocidade",
+    "teste de velocidade da internet",
+    "teste de ligação à internet",
+    "teste de internet",
+    "velocidade do wi-fi",
+    "ligação wi-fi"
+  ]
+}
