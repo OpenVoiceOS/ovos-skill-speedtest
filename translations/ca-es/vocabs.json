@@ -2,8 +2,8 @@
     "Speedtest.voc": [
         "connexió (wifi|[d']internet)",
         "(prova|test) [d']internet",
-        "(prova|test) [de] connexió [a] Internet",
-        "(prova|test) [de] velocitat [d'internet]",
+        "(prova|test) [de ]connexió [a ]Internet",
+        "(prova|test) [de ]velocitat [d'internet]",
         "velocitat (wifi|[d']internet)"
     ],
     "Run.voc": [
