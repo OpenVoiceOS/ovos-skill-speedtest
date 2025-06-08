@@ -1,16 +1,16 @@
 # Changelog
 
-## [0.3.5a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.5a1) (2025-05-15)
+## [0.3.6a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.6a1) (2025-06-08)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.3.4...0.3.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/V0.3.5...0.3.6a1)
 
 **Merged pull requests:**
 
-- Update Catalan strings [\#32](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/32) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- workshop 7.X:X [\#34](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/34) ([JarbasAl](https://github.com/JarbasAl))
 
-## [V0.3.4](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.3.4) (2025-03-20)
+## [V0.3.5](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/V0.3.5) (2025-05-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.4...V0.3.4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.5...V0.3.5)
 
 
 
