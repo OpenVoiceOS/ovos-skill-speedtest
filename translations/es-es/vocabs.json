@@ -1,9 +1,18 @@
 {
-    "Run.voc": [
-        "ejecutar"
-    ],
-    "Speedtest.voc": [
-        "prueba de velocidad",
-        "prueba de velocidad"
-    ]
+  "Run.voc": [
+    "ejecutar",
+    "comenzar",
+    "realizar",
+    "ejecutar",
+    "punto de referencia",
+    "evaluar"
+  ],
+  "Speedtest.voc": [
+    "prueba de velocidad",
+    "prueba de velocidad de internet",
+    "prueba de conexión a internet",
+    "prueba de internet",
+    "velocidad wifi",
+    "conexión wifi"
+  ]
 }
