@@ -1,18 +1,18 @@
 {
-    "Run.voc": [
-        "medir o desempeño",
-        "avaliar",
-        "executar",
-        "levar a cabo",
-        "facer",
-        "iniciar"
-    ],
-    "Speedtest.voc": [
-        "proba de conexión a internet",
-        "proba de velocidade de internet",
-        "proba de internet",
-        "proba de velocidade",
-        "conexión wifi",
-        "velocidade da wifi"
-    ]
+  "Run.voc": [
+    "executar",
+    "iniciar",
+    "realizar",
+    "executar",
+    "avaliar rendemento",
+    "avaliar"
+  ],
+  "Speedtest.voc": [
+    "proba de velocidade",
+    "proba de velocidade de internet",
+    "proba de conexión a internet",
+    "proba de internet",
+    "velocidade da wifi",
+    "conexión wifi"
+  ]
 }
