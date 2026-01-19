@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.7a3](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.7a3) (2026-01-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.7a2...0.3.7a3)
+
+**Merged pull requests:**
+
+- gl-es/translate [\#42](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/42) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
 ## [0.3.7a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.7a2) (2025-11-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.7a1...0.3.7a2)
