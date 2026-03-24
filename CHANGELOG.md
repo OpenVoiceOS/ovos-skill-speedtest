@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.8a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a1) (2026-03-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.7a3...0.3.8a1)
+
+**Merged pull requests:**
+
+- fix: rename bare lang code locale directories [\#45](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/45) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- Refine French speedtest locale [\#44](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/44) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [0.3.7a3](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.7a3) (2026-01-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.7a2...0.3.7a3)
