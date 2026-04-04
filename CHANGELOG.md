@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.8a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a2) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a1...0.3.8a2)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#48](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/48) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#47](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/47) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.8a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a1) (2026-03-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.7a3...0.3.8a1)
