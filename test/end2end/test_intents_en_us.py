@@ -67,5 +67,8 @@ class _IntentRoutingMixin:
 
 class TestAdapt1_Speedtestintent(_IntentRoutingMixin, TestCase):
     """Adapt intent: SpeedtestIntent"""
-    def test_internet_connection_test_benchmark(self):
-        self._assert_adapt(r"internet connection test benchmark", r"SpeedtestIntent")
+    def test_run_speed_test(self):
+        self._assert_adapt(r"run speed test", r"SpeedtestIntent")
+
+    def test_start_internet_speed_test(self):
+        self._assert_adapt(r"start internet speed test", r"SpeedtestIntent")
