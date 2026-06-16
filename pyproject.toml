@@ -33,7 +33,7 @@ test = [
 [project.urls]
 Homepage = "https://github.com/OpenVoiceOS/ovos-skill-speedtest"
 
-[project.entry-points."ovos.plugin.skill"]
+[project.entry-points."opm.skill"]
 "ovos-skill-speedtest.openvoiceos" = "ovos_skill_speedtest:SpeedTestSkill"
 
 [tool.setuptools.dynamic]
