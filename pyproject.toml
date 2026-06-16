@@ -18,6 +18,7 @@ classifiers = [
 ]
 requires-python = ">=3.9"
 dependencies = [
+    "ovos-plugin-manager>=2.4.0a1",
     "speedtest-cli",
     "ovos-workshop>=0.0.12,<8.0.0",
 ]
