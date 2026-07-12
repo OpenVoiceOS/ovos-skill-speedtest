@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.8a5](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a5) (2026-07-12)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a4...0.3.8a5)
+
+**Merged pull requests:**
+
+- fix: allow ovos-workshop 9.x [\#54](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/54) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.8a4](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a4) (2026-07-03)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a3...0.3.8a4)
