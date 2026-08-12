@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.8a7](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a7) (2026-08-12)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a6...0.3.8a7)
+
+**Merged pull requests:**
+
+- test: add golden-utterance e2e suite for en-US [\#58](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/58) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.8a6](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a6) (2026-08-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a5...0.3.8a6)
