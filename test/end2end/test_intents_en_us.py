@@ -1,6 +1,6 @@
 """End-to-end intent-routing tests for ovos-skill-speedtest (en-US).
 
-These assert *per-utterance* that the Adapt pipeline routes an utterance to the
+These assert *per-utterance* that the Padatious pipeline routes an utterance to the
 ``SpeedtestIntent`` handler and that the skill speaks the measured result back.
 They deliberately use subset assertions over the captured message stream rather
 than a strict full-sequence match: the exact ordered sequence drifts across
@@ -53,7 +53,7 @@ from unittest import TestCase  # noqa: E402
 
 from ovos_bus_client.message import Message  # noqa: E402
 from ovos_bus_client.session import Session  # noqa: E402
-from ovoscope import get_minicroft, CaptureSession, ADAPT_PIPELINE  # noqa: E402
+from ovoscope import get_minicroft, CaptureSession, PADACIOSO_PIPELINE  # noqa: E402
 
 SKILL_ID = "ovos-skill-speedtest.openvoiceos"
 LANG = "en-US"
@@ -63,7 +63,7 @@ SPEEDTEST_INTENT = f"{SKILL_ID}:SpeedtestIntent"
 def _session(tag: str) -> Session:
     session = Session(f"e2e-en_us-speedtest-{tag}")
     session.lang = LANG
-    session.pipeline = ADAPT_PIPELINE
+    session.pipeline = PADACIOSO_PIPELINE
     return session
 
 
@@ -117,7 +117,7 @@ class _SpeedtestRoutingMixin:
 
 
 class TestSpeedtestIntent(_SpeedtestRoutingMixin, TestCase):
-    """SpeedtestIntent routes across the Run.voc phrasings."""
+    """SpeedtestIntent routes across the SpeedtestIntent.intent phrasings."""
 
     def test_run_speed_test(self):
         self.assertRoutesToSpeedtest("run speed test")
