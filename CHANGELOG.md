@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.8a8](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a8) (2026-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a7...0.3.8a8)
+
+**Merged pull requests:**
+
+- refactor: migrate SpeedtestIntent to a .intent file [\#60](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/60) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.8a7](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a7) (2026-08-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a6...0.3.8a7)
