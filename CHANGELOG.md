@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.9a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.9a1) (2026-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a8...0.3.9a1)
+
+**Merged pull requests:**
+
+- fix: add check/test/measure verbs and speak ping [\#63](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/63) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.8a8](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.8a8) (2026-09-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a7...0.3.8a8)
