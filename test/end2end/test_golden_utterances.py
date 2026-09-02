@@ -52,7 +52,7 @@ from pathlib import Path  # noqa: E402
 import pytest  # noqa: E402
 from ovos_bus_client.message import Message  # noqa: E402
 from ovos_bus_client.session import Session  # noqa: E402
-from ovoscope import CaptureSession, get_minicroft, ADAPT_PIPELINE  # noqa: E402
+from ovoscope import CaptureSession, get_minicroft, PADACIOSO_PIPELINE  # noqa: E402
 
 SKILL_ID = "ovos-skill-speedtest.openvoiceos"
 LANG = "en-US"
@@ -83,6 +83,11 @@ def _candidates(skill_id: str, intent_label: str) -> set:
 
 
 def _load_golden_rows():
+    # "internet connection test benchmark" is flagged needs_manual: the old
+    # Adapt intent matched it via keyword presence regardless of word order
+    # (Run="benchmark" at the end, Speedtest="internet connection test" at
+    # the start); SpeedtestIntent.intent is a fixed Padatious template and
+    # does not model that ordering.
     rows = []
     with open(GOLDEN_PATH, encoding="utf-8") as f:
         for line in f:
@@ -109,7 +114,7 @@ def minicroft():
 def _types(mc, text, session_id):
     session = Session(session_id)
     session.lang = LANG
-    session.pipeline = ADAPT_PIPELINE
+    session.pipeline = PADACIOSO_PIPELINE
     utterance = Message(
         "recognizer_loop:utterance",
         {"utterances": [text], "lang": LANG},

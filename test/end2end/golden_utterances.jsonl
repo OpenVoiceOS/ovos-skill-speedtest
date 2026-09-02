@@ -1,1 +1,1 @@
-{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "internet connection test benchmark", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent", "intent_type": "adapt", "expected_messages": ["speak"], "needs_manual": false}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "internet connection test benchmark", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent", "intent_type": "adapt", "expected_messages": ["speak"], "needs_manual": true}

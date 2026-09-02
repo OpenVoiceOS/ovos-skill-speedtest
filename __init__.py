@@ -17,13 +17,12 @@ import speedtest
 
 from ovos_utils.log import LOG
 from ovos_workshop.decorators import intent_handler
-from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
 
 
 class SpeedTestSkill(OVOSSkill):
 
-    @intent_handler(IntentBuilder("SpeedtestIntent").require("Run").require("Speedtest"))
+    @intent_handler("SpeedtestIntent.intent")
     def handle_speedtest_intent(self, message):
         LOG.info("speedtest started")
         try:
