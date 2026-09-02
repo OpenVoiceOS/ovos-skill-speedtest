@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-speedtest"
+dynamic = ["version"]
+description = "OVOS speedtest skill plugin"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "JarbasAi", email = "jarbasai@mailfence.com" }
+]
+keywords = ["ovos", "skill", "plugin"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "ovos-plugin-manager>=2.1.0,<3.0.0",
+    "speedtest-cli",
+    "ovos-workshop>=0.0.12,<10.0.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "ovoscope>=0.13.1,<1.0.0",
+    "pytest>=7.0.0,<9",
+    "pytest-timeout>=2.0.0",
+    "ovos-adapt-parser",
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-skill-speedtest"
+
+[project.entry-points."opm.skill"]
+"ovos-skill-speedtest.openvoiceos" = "ovos_skill_speedtest:SpeedTestSkill"
+
+[tool.setuptools.dynamic]
+version = { attr = "version.__version__" }
+
+[tool.setuptools]
+packages = ["ovos_skill_speedtest"]
+
+[tool.setuptools.package-dir]
+"ovos_skill_speedtest" = "."
+
+[tool.setuptools.package-data]
+"ovos_skill_speedtest" = [
+    "*.json",
+    "locale/**/*",
+    "gui/**/*",
+    "vocab/**/*",
+    "dialog/**/*",
+    "regex/**/*",
+]
