@@ -47,6 +47,9 @@ class SpeedTestSkill(OVOSSkill):
             self.gui.show_text(f"UP: {upspeed} MB/S\nDOWN: {downspeed} MB/S")
             self.enclosure.mouth_text(f"UP: {upspeed} MB/S     DOWN: {downspeed} MB/S     ")
             self.speak_dialog('result', {'DOWN': downspeed, 'UP': upspeed}, wait=True)
+            if "ping" in result:
+                ping = ('%.2f' % float(result["ping"]))
+                self.speak_dialog('ping', {'ping': ping}, wait=True)
             time.sleep(2)  # let speed test results scroll for a bit
             self.enclosure.eyes_fill(100)
         except:

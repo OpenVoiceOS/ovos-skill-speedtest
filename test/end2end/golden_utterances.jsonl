@@ -1,1 +1,5 @@
 {"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "internet connection test benchmark", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent", "intent_type": "adapt", "expected_messages": ["speak"], "needs_manual": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "check my internet speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "test my wifi speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what's my download speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what's my upload speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
