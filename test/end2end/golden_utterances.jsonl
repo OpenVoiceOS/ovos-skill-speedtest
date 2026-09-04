@@ -3,3 +3,22 @@
 {"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "test my wifi speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
 {"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what's my download speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
 {"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what's my upload speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "run a speed test", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "start a speed test", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "perform an internet speed test", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "execute an internet connection test", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "run an internet test", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "how fast is my internet", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "how fast is my wifi", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "how fast is my connection", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what is my download speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what is my upload speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "benchmark my internet connection", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "measure my internet speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "check my wifi connection", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "test my internet connection", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what's my internet speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "is my internet fast", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "can you test my internet speed", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "please run a speed test", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "how's my internet connection", "intent_method": "handle_speedtest_intent", "intent_label": "SpeedtestIntent.intent", "intent_type": "padatious"}
