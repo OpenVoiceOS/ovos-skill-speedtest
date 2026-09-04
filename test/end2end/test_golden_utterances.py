@@ -69,6 +69,12 @@ NEGATIVE_UTTERANCES = [
     ("turn off the wifi", "ovos-skill-homeassistant.openvoiceos"),
     ("perform a system update", "ovos-skill-os-updates.openvoiceos"),
     ("tell me a joke", "ovos-skill-icanhazdadjokes.openvoiceos"),
+    ("check my email", "ovos-skill-email.openvoiceos"),
+    ("what's my ip address", "ovos-skill-network-info.openvoiceos"),
+    ("how fast is my computer", "ovos-skill-system-info.openvoiceos"),
+    ("download this file", "ovos-skill-downloads.openvoiceos"),
+    ("upload a photo", "ovos-skill-photos.openvoiceos"),
+    ("run a diagnostic", "ovos-skill-diagnostics.openvoiceos"),
 ]
 
 
