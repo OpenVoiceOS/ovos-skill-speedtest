@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.4.0a1) (2026-09-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.9a1...0.4.0a1)
+
+**Merged pull requests:**
+
+- feat: kab locale parity [\#67](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/67) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.9a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.3.9a1) (2026-09-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.8a8...0.3.9a1)
