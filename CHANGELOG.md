@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.4.0a2) (2026-09-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.4.0a1...0.4.0a2)
+
+**Merged pull requests:**
+
+- chore: drop unused ovos-adapt-parser dependency [\#70](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/70) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.4.0a1) (2026-09-07)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.3.9a1...0.4.0a1)
