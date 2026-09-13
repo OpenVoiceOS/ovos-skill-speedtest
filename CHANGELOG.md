@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.1a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.6.1a1) (2026-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.6.0a1...0.6.1a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): ca-ES and de-DE speedtest intent wording after \#75 [\#77](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/77) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.6.0a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.6.0a1) (2026-09-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.5.0a1...0.6.0a1)
