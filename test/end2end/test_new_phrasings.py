@@ -1,5 +1,5 @@
 """End-to-end proof that the verb/query phrasings added for issue #62 route
-to ``SpeedtestIntent`` and that a generic "check my X" phrase from a sibling
+to ``speedtest_intent`` and that a generic "check my X" phrase from a sibling
 skill's domain is not claimed.
 
 The handler runs a live network ``speedtest``. ``speedtest.Speedtest`` is
@@ -51,7 +51,7 @@ from ovoscope import get_minicroft, CaptureSession, PADACIOSO_PIPELINE  # noqa: 
 
 SKILL_ID = "ovos-skill-speedtest.openvoiceos"
 LANG = "en-US"
-SPEEDTEST_INTENT = f"{SKILL_ID}:SpeedtestIntent"
+SPEEDTEST_INTENT = f"{SKILL_ID}:speedtest_intent"
 
 NEW_PHRASINGS = [
     "check my internet speed",
@@ -61,7 +61,7 @@ NEW_PHRASINGS = [
 ]
 
 # lexically close to speedtest's vocabulary ("check", "my") but out of
-# domain -- must never be claimed by SpeedtestIntent.
+# domain -- must never be claimed by speedtest_intent.
 NEGATIVE_UTTERANCES = [
     "check my email",
 ]
@@ -83,7 +83,7 @@ def _utterance(utt: str, session: Session) -> Message:
 
 
 class TestNewPhrasingsRouteToSpeedtest(TestCase):
-    """Verbs/query-forms added for issue #62 must route to SpeedtestIntent."""
+    """Verbs/query-forms added for issue #62 must route to speedtest_intent."""
 
     @classmethod
     def setUpClass(cls):

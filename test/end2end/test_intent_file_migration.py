@@ -1,9 +1,9 @@
-"""End-to-end proof that ``SpeedtestIntent`` is a Padatious ``.intent``
+"""End-to-end proof that ``speedtest_intent`` is a Padatious ``.intent``
 match, not an Adapt keyword match.
 
 The session pipeline is pinned to ``PADACIOSO_PIPELINE`` only (Adapt
 excluded), so this test can only pass if the intent is trained from
-``SpeedtestIntent.intent`` rather than the old ``Run``/``Speedtest``
+``speedtest_intent.intent`` rather than the old ``run``/``speedtest``
 Adapt vocabulary.
 
 The handler runs a live network ``speedtest``; ``speedtest.Speedtest`` is
@@ -54,7 +54,7 @@ from ovoscope import get_minicroft, CaptureSession, PADACIOSO_PIPELINE  # noqa: 
 
 SKILL_ID = "ovos-skill-speedtest.openvoiceos"
 LANG = "en-US"
-SPEEDTEST_INTENT = f"{SKILL_ID}:SpeedtestIntent"
+SPEEDTEST_INTENT = f"{SKILL_ID}:speedtest_intent"
 
 
 def _session(tag: str) -> Session:
@@ -73,7 +73,7 @@ def _utterance(utt: str, session: Session) -> Message:
 
 
 class TestSpeedtestIntentFile(TestCase):
-    """SpeedtestIntent must route via Padatious/.intent alone."""
+    """speedtest_intent must route via Padatious/.intent alone."""
 
     @classmethod
     def setUpClass(cls):
