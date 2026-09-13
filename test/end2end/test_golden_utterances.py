@@ -76,7 +76,7 @@ def _candidates(skill_id: str, intent_label: str) -> set:
     """padatious/padacioso plugin versions register the matched-intent bus
     event under different normalizations of the ``.intent`` filename
     basename -- candidates cover both the suffixed and unsuffixed forms.
-    Adapt intent names (eg. "SpeedtestIntent") have no ``.intent`` suffix
+    Adapt intent names (eg. "speedtest_intent") have no ``.intent`` suffix
     to strip."""
     base = intent_label[:-len(".intent")] if intent_label.endswith(".intent") else intent_label
     return {f"{skill_id}:{intent_label}", f"{skill_id}:{base}"}
@@ -86,7 +86,7 @@ def _load_golden_rows():
     # "internet connection test benchmark" is flagged needs_manual: the old
     # Adapt intent matched it via keyword presence regardless of word order
     # (Run="benchmark" at the end, Speedtest="internet connection test" at
-    # the start); SpeedtestIntent.intent is a fixed Padatious template and
+    # the start); speedtest_intent.intent is a fixed Padatious template and
     # does not model that ordering.
     rows = []
     with open(GOLDEN_PATH, encoding="utf-8") as f:

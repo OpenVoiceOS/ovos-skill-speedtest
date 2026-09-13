@@ -22,7 +22,7 @@ from ovos_workshop.skills import OVOSSkill
 
 class SpeedTestSkill(OVOSSkill):
 
-    @intent_handler("SpeedtestIntent.intent")
+    @intent_handler("speedtest_intent.intent")
     def handle_speedtest_intent(self, message):
         LOG.info("speedtest started")
         try:
