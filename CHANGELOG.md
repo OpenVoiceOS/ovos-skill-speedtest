@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.0a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.7.0a1) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.6.2a1...0.7.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): fill el-GR, fa-IR, ru-RU and tr-TR gaps against en-US [\#84](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/84) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.6.2a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.6.2a1) (2026-09-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.6.1a1...0.6.2a1)
