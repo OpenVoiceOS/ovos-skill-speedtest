@@ -1,0 +1,12 @@
+{
+  "skill_id": "ovos-skill-speedtest.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-speedtest",
+  "name": "Speedtest",
+  "description": "εκτελεί δοκιμή εύρους ζώνης διαδικτύου χρησιμοποιώντας speedtest.net",
+  "examples": [
+    "εκτέλεσε ένα speedtest"
+  ],
+  "tags": [
+    "διαγνωστικά", "πληροφορίες", "πληροφορίες", "IoT", "ταχύτητα", "διαδίκτυο"
+  ]
+}
