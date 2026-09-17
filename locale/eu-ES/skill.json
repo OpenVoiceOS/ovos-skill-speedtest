@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-speedtest.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-speedtest",
+  "name": "Abiadura-proba",
+  "description": "speedtest.net erabiliz interneteko banda-zabaleraren proba egiten du",
+  "examples": [
+    "egin abiadura-proba bat"
+  ],
+  "tags": [
+    "diagnostikoa",
+    "informazioa",
+    "informazioa",
+    "IoT",
+    "abiadura",
+    "internet"
+  ]
+}
