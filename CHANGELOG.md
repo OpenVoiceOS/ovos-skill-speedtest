@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.8.0a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.8.0a2) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.8.0a1...0.8.0a2)
+
+**Merged pull requests:**
+
+- chore: remove dead locale resources [\#81](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/81) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.8.0a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.8.0a1) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.7.0a1...0.8.0a1)
