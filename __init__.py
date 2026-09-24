@@ -46,7 +46,7 @@ class SpeedTestSkill(OVOSSkill):
             upspeed = ('%.2f' % float((result["upload"]) / 1000000))
             self.gui.show_text(f"UP: {upspeed} MB/S\nDOWN: {downspeed} MB/S")
             self.enclosure.mouth_text(f"UP: {upspeed} MB/S     DOWN: {downspeed} MB/S     ")
-            self.speak_dialog('result', {'DOWN': downspeed, 'UP': upspeed}, wait=True)
+            self.speak_dialog('result', {'down': downspeed, 'up': upspeed}, wait=True)
             if "ping" in result:
                 ping = ('%.2f' % float(result["ping"]))
                 self.speak_dialog('ping', {'ping': ping}, wait=True)
