@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "kör hastighetstest", "lang": "sv-SE", "intent_label": "speedtest_intent.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "kör ett hastighets test", "lang": "sv-SE", "intent_label": "speedtest_intent.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "hastighetstest av internet", "lang": "sv-SE", "intent_label": "speedtest_intent.intent", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
