@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.9.1a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.9.1a2) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.9.1a1...0.9.1a2)
+
+**Merged pull requests:**
+
+- locale: machine translation for skill.json name and description \(unvouched\) [\#92](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/92) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.9.1a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.9.1a1) (2026-09-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.9.0a1...0.9.1a1)
