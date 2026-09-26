@@ -1,0 +1,12 @@
+{
+  "skill_id": "ovos-skill-speedtest.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-speedtest",
+  "name": "Speedtest",
+  "description": "speedtest.net kullanarak internet bant genişliği testi çalıştırır",
+  "examples": [
+    "bir speedtest çalıştır"
+  ],
+  "tags": [
+    "tanılama", "bilgi", "bilgi", "IoT", "hız", "internet"
+  ]
+}

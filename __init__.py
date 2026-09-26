@@ -17,13 +17,12 @@ import speedtest
 
 from ovos_utils.log import LOG
 from ovos_workshop.decorators import intent_handler
-from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
 
 
 class SpeedTestSkill(OVOSSkill):
 
-    @intent_handler(IntentBuilder("SpeedtestIntent").require("Run").require("Speedtest"))
+    @intent_handler("speedtest_intent.intent")
     def handle_speedtest_intent(self, message):
         LOG.info("speedtest started")
         try:
@@ -47,7 +46,10 @@ class SpeedTestSkill(OVOSSkill):
             upspeed = ('%.2f' % float((result["upload"]) / 1000000))
             self.gui.show_text(f"UP: {upspeed} MB/S\nDOWN: {downspeed} MB/S")
             self.enclosure.mouth_text(f"UP: {upspeed} MB/S     DOWN: {downspeed} MB/S     ")
-            self.speak_dialog('result', {'DOWN': downspeed, 'UP': upspeed}, wait=True)
+            self.speak_dialog('result', {'down': downspeed, 'up': upspeed}, wait=True)
+            if "ping" in result:
+                ping = ('%.2f' % float(result["ping"]))
+                self.speak_dialog('ping', {'ping': ping}, wait=True)
             time.sleep(2)  # let speed test results scroll for a bit
             self.enclosure.eyes_fill(100)
         except:
