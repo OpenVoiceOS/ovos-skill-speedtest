@@ -4,7 +4,7 @@
   "name": "Speedtest",
   "description": "runs an internet bandwidth test using speedtest.net",
   "examples": [
-    "run a speedtest"
+    "run a speed test"
   ],
   "tags": [
     "diagnostics", "information", "information", "IoT", "speed", "internet"

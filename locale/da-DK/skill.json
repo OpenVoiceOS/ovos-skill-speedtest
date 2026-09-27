@@ -4,7 +4,7 @@
   "name": "Hastighedstest",
   "description": "kører en internetbåndbreddetest ved hjælp af speedtest.net",
   "examples": [
-    "kør en speedtest"
+    "kør en hastighedstest"
   ],
   "tags": [
     "diagnostik",

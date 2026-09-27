@@ -4,7 +4,7 @@
   "name": "Teste de velocidade",
   "description": "executa um teste de largura de banda da Internet utilizando o speedtest.net",
   "examples": [
-    "realize um teste de velocidade"
+    "realizar um teste de velocidade"
   ],
   "tags": [
     "diagnóstico",

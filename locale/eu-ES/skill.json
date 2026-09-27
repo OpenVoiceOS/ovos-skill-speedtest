@@ -4,7 +4,7 @@
   "name": "Abiadura-proba",
   "description": "speedtest.net erabiliz interneteko banda-zabaleraren proba egiten du",
   "examples": [
-    "egin abiadura-proba bat"
+    "exekutatu abiadura-froga"
   ],
   "tags": [
     "diagnostikoa",

@@ -4,7 +4,7 @@
   "name": "Prueba de velocidad",
   "description": "Realiza una prueba de velocidad de Internet utilizando speedtest.net",
   "examples": [
-    "Realiza una prueba de velocidad"
+    "haz una prueba de velocidad"
   ],
   "tags": [
     "diagnóstico",

@@ -4,7 +4,7 @@
   "name": "Speedtest",
   "description": "kör ett internethastighetstest med speedtest.net",
   "examples": [
-    "kör ett speedtest"
+    "kör ett hastighetstest"
   ],
   "tags": [
     "diagnostik", "information", "information", "IoT", "hastighet", "internet"
