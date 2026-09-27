@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.9.2a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.9.2a1) (2026-09-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.9.1a2...0.9.2a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): nl-NL and pt-BR store examples and tags [\#95](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/95) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.9.1a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.9.1a2) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.9.1a1...0.9.1a2)
