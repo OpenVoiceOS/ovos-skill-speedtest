@@ -2,5 +2,16 @@
   "skill_id": "ovos-skill-speedtest.openvoiceos",
   "source": "https://github.com/OpenVoiceOS/ovos-skill-speedtest",
   "name": "Snelheidstest",
-  "description": "voert een bandbreedtetest uit op internet met behulp van speedtest.net"
+  "description": "voert een bandbreedtetest uit op internet met behulp van speedtest.net",
+  "examples": [
+    "start een snelheidstest",
+    "meet de internet snelheid"
+  ],
+  "tags": [
+    "diagnostiek",
+    "informatie",
+    "IoT",
+    "snelheid",
+    "internet"
+  ]
 }
