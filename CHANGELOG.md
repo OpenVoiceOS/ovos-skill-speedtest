@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.10.0a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.10.0a1) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.9.3a1...0.10.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): draft es-CO from es-ES \(copy, unvouched\) [\#98](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/98) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.9.3a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.9.3a1) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.9.2a1...0.9.3a1)
