@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.9.3a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.9.3a1) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.9.2a1...0.9.3a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): make the single store example reach the intent in eleven locales [\#94](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/94) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.9.2a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.9.2a1) (2026-09-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.9.1a2...0.9.2a1)
