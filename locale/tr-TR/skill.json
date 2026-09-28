@@ -4,7 +4,7 @@
   "name": "Speedtest",
   "description": "speedtest.net kullanarak internet bant genişliği testi çalıştırır",
   "examples": [
-    "bir speedtest çalıştır"
+    "hız testi çalıştır"
   ],
   "tags": [
     "tanılama", "bilgi", "bilgi", "IoT", "hız", "internet"

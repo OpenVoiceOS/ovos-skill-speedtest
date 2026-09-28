@@ -4,7 +4,7 @@
   "name": "Speedtest",
   "description": "esegue un test della banda internet usando speedtest.net",
   "examples": [
-    "esegui uno speedtest"
+    "esegui un test di velocità"
   ],
   "tags": [
     "diagnostica", "informazione", "informazione", "IoT", "velocità", "internet"
