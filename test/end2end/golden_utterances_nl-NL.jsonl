@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "voer een snelheidstest uit", "intent_label": "speedtest_intent", "intent_type": "padatious", "needs_manual": true, "lang": "nl-NL", "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "controleer de internet snelheid", "intent_label": "speedtest_intent", "intent_type": "padatious", "needs_manual": true, "lang": "nl-NL", "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "doe een snelheidstest", "intent_label": "speedtest_intent", "intent_type": "padatious", "needs_manual": true, "lang": "nl-NL", "machine_generated": true}

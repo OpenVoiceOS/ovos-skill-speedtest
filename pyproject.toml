@@ -28,6 +28,7 @@ test = [
     "ovoscope>=0.13.1,<1.0.0",
     "pytest>=7.0.0,<9",
     "pytest-timeout>=2.0.0",
+    "ovos-padatious>=2.2.7a1",
 ]
 
 [project.urls]

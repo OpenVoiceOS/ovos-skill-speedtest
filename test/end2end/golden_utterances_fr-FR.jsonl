@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "lance un test de débit", "intent_label": "speedtest_intent", "intent_type": "padatious", "needs_manual": true, "lang": "fr-FR", "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "test de débit internet", "intent_label": "speedtest_intent", "intent_type": "padatious", "needs_manual": true, "lang": "fr-FR", "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "quelle est la vitesse de ma connexion internet", "intent_label": "speedtest_intent", "intent_type": "padatious", "needs_manual": true, "lang": "fr-FR", "machine_generated": true}
