@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Ik wil graag weten hoe snel mijn internet is", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Hoe snel is mijn wifi op dit moment", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Kun je even een speedtest voor me draaien", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Wat is mijn downloadsnelheid", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Hoe snel kan ik bestanden uploaden", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Mijn internet voelt traag, kun je dat controleren", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Test de snelheid van mijn verbinding", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Hoeveel megabit krijg ik binnen", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Laat een bandbreedtetest draaien", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Is mijn internetverbinding snel genoeg", "lang": "nl-NL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
