@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.10.0a4](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.10.0a4) (2026-10-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.10.0a3...0.10.0a4)
+
+**Merged pull requests:**
+
+- test: natural golden rows and an m2v gate for every locale [\#105](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/105) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.10.0a3](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.10.0a3) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.10.0a2...0.10.0a3)
