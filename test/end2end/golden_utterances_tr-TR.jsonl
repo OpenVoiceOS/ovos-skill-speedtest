@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "İnternet hızımı ölçer misin", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Wifi'm şu an ne kadar hızlı", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Bir speedtest yap", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "İndirme hızım kaç megabit", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Dosya yükleme hızım nedir", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "İnternetim hızlı mı bak bakalım", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "İnternet yavaş gibi, kontrol eder misin", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Bağlantımın hızını öğrenmek istiyorum", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Bant genişliği testi başlat", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "İnternet bağlantım nasıl performans veriyor", "lang": "tr-TR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}

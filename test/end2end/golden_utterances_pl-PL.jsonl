@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Chciałbym poznać szybkość mojego łącza internetowego", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Z jaką prędkością działa teraz mój wifi", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Zrób speedtest", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Ile megabitów mam na pobieranie", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Jaka jest szybkość wysyłania moich plików", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Sprawdź czy mój internet jest szybki", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Internet wydaje się wolny, możesz to sprawdzić", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Chcę wiedzieć jaką mam prędkość pobierania", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Uruchom pomiar przepustowości łącza", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Jak sprawuje się moje łącze internetowe", "lang": "pl-PL", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
