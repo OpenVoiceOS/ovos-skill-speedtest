@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "می‌تونی سرعت اینترنت من رو اندازه بگیری", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "سرعت وای‌فای من الان چقدره", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "یه اسپید تست بگیر", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "سرعت دانلود من چنده", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "سرعت آپلود فایل‌های من چقدره", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "ببین اینترنتم سریعه یا نه", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "اینترنت کند شده، بررسی‌اش کن", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "می‌خوام بدونم چند مگابیت دارم", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "یک تست پهنای باند اجرا کن", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "کیفیت اتصال اینترنت من چطوره", "lang": "fa-IR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}

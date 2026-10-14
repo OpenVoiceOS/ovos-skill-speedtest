@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Μπορείς να μετρήσεις την ταχύτητα του ίντερνετ μου", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Πόσο γρήγορο είναι το wifi μου τώρα", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Κάνε ένα speedtest", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Ποια είναι η ταχύτητα λήψης μου", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Με τι ταχύτητα ανεβάζω αρχεία", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Έλεγξε αν το ίντερνετ μου τρέχει γρήγορα", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Το ίντερνετ φαίνεται αργό, μπορείς να το ελέγξεις", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Θέλω να μάθω πόσα μεγαμπίτ έχω", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Ξεκίνα μια μέτρηση του εύρους ζώνης", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Πώς αποδίδει η σύνδεσή μου", "lang": "el-GR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
