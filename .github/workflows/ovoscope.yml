@@ -1,6 +1,11 @@
 name: Skill End-to-End Tests (ovoscope)
 
 on:
+  # The base needs its own run. Without one, a red on a pull request has no
+  # baseline: the ledger cannot tell a failure the branch introduced from one
+  # dev already carried.
+  push:
+    branches: [dev]
   pull_request:
     branches: [dev, master, main]
   workflow_dispatch:
