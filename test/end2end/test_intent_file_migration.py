@@ -1,9 +1,8 @@
-"""End-to-end proof that ``speedtest_intent`` is a Padatious ``.intent``
+"""End-to-end proof that ``speedtest_intent`` is an ``.intent`` file
 match, not an Adapt keyword match.
 
-The session pipeline is pinned to ``PADACIOSO_PIPELINE`` only (Adapt
-excluded), so this test can only pass if the intent is trained from
-``speedtest_intent.intent`` rather than the old ``run``/``speedtest``
+The session pipeline has no Adapt stage, so this request can only route if
+``speedtest_intent.intent`` carries it rather than the ``run``/``speedtest``
 Adapt vocabulary.
 
 The handler runs a live network ``speedtest``; ``speedtest.Speedtest`` is
@@ -50,7 +49,8 @@ from unittest import TestCase  # noqa: E402
 
 from ovos_bus_client.message import Message  # noqa: E402
 from ovos_bus_client.session import Session  # noqa: E402
-from ovoscope import get_minicroft, CaptureSession, PADACIOSO_PIPELINE  # noqa: E402
+from ovoscope import CaptureSession  # noqa: E402
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft  # noqa: E402
 
 SKILL_ID = "ovos-skill-speedtest.openvoiceos"
 LANG = "en-US"
@@ -60,7 +60,7 @@ SPEEDTEST_INTENT = f"{SKILL_ID}:speedtest_intent"
 def _session(tag: str) -> Session:
     session = Session(f"e2e-en_us-speedtest-intentfile-{tag}")
     session.lang = LANG
-    session.pipeline = PADACIOSO_PIPELINE
+    session.pipeline = PIPELINE
     return session
 
 
@@ -73,28 +73,24 @@ def _utterance(utt: str, session: Session) -> Message:
 
 
 class TestSpeedtestIntentFile(TestCase):
-    """speedtest_intent must route via Padatious/.intent alone."""
+    """speedtest_intent must route via its .intent file alone."""
 
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID])
+        cls.minicroft = get_prototype_minicroft([SKILL_ID], lang=LANG)
 
     @classmethod
     def tearDownClass(cls):
         if getattr(cls, "minicroft", None):
             cls.minicroft.stop()
 
-    def test_run_a_speed_test_padatious_only(self):
+    def test_run_a_speed_test_intent_file_only(self):
         session = _session("run-a-speed-test")
         capture = CaptureSession(self.minicroft)
         capture.capture(_utterance("run a speed test", session), timeout=30)
         messages = capture.finish()
         types = [m.msg_type for m in messages]
-        self.assertIn(
-            SPEEDTEST_INTENT, types,
-            f"expected {SPEEDTEST_INTENT!r} to be matched via the Adapt-less "
-            f"(Padatious-only) pipeline for 'run a speed test', got {types}",
-        )
+        TALLY.assert_routed("run a speed test", SPEEDTEST_INTENT, types)
         spoken = [
             m.data.get("utterance", "")
             for m in messages

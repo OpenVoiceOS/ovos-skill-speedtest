@@ -47,7 +47,8 @@ from unittest import TestCase  # noqa: E402
 
 from ovos_bus_client.message import Message  # noqa: E402
 from ovos_bus_client.session import Session  # noqa: E402
-from ovoscope import get_minicroft, CaptureSession, PADACIOSO_PIPELINE  # noqa: E402
+from ovoscope import CaptureSession  # noqa: E402
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft  # noqa: E402
 
 SKILL_ID = "ovos-skill-speedtest.openvoiceos"
 LANG = "en-US"
@@ -70,7 +71,7 @@ NEGATIVE_UTTERANCES = [
 def _session(tag: str) -> Session:
     session = Session(f"e2e-en_us-speedtest-newphrasing-{tag}")
     session.lang = LANG
-    session.pipeline = PADACIOSO_PIPELINE
+    session.pipeline = PIPELINE
     return session
 
 
@@ -87,7 +88,7 @@ class TestNewPhrasingsRouteToSpeedtest(TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID])
+        cls.minicroft = get_prototype_minicroft([SKILL_ID], lang=LANG)
 
     @classmethod
     def tearDownClass(cls):
@@ -103,28 +104,24 @@ class TestNewPhrasingsRouteToSpeedtest(TestCase):
     def test_check_my_internet_speed(self):
         messages = self._capture("check my internet speed")
         types = [m.msg_type for m in messages]
-        self.assertIn(SPEEDTEST_INTENT, types, types)
+        TALLY.assert_routed("check my internet speed", SPEEDTEST_INTENT, types)
 
     def test_test_my_wifi_speed(self):
         messages = self._capture("test my wifi speed")
         types = [m.msg_type for m in messages]
-        self.assertIn(SPEEDTEST_INTENT, types, types)
+        TALLY.assert_routed("test my wifi speed", SPEEDTEST_INTENT, types)
 
     def test_whats_my_download_speed(self):
         messages = self._capture("what's my download speed")
         types = [m.msg_type for m in messages]
-        self.assertIn(SPEEDTEST_INTENT, types, types)
+        TALLY.assert_routed("what's my download speed", SPEEDTEST_INTENT, types)
 
     def test_whats_my_upload_speed(self):
         messages = self._capture("what's my upload speed")
         types = [m.msg_type for m in messages]
-        self.assertIn(SPEEDTEST_INTENT, types, types)
+        TALLY.assert_routed("what's my upload speed", SPEEDTEST_INTENT, types)
 
     def test_check_my_email_not_claimed(self):
         messages = self._capture("check my email")
         types = [m.msg_type for m in messages]
-        self.assertNotIn(
-            SPEEDTEST_INTENT, types,
-            f"'check my email' must not be claimed by {SPEEDTEST_INTENT!r}, "
-            f"got {types}",
-        )
+        TALLY.assert_not_routed("check my email", [SPEEDTEST_INTENT], types)

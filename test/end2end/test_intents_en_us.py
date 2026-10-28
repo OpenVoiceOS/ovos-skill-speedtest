@@ -1,6 +1,6 @@
 """End-to-end intent-routing tests for ovos-skill-speedtest (en-US).
 
-These assert *per-utterance* that the Padatious pipeline routes an utterance to the
+These assert *per-utterance* that an utterance routes to the
 ``speedtest_intent`` handler and that the skill speaks the measured result back.
 They deliberately use subset assertions over the captured message stream rather
 than a strict full-sequence match: the exact ordered sequence drifts across
@@ -53,7 +53,8 @@ from unittest import TestCase  # noqa: E402
 
 from ovos_bus_client.message import Message  # noqa: E402
 from ovos_bus_client.session import Session  # noqa: E402
-from ovoscope import get_minicroft, CaptureSession, PADACIOSO_PIPELINE  # noqa: E402
+from ovoscope import CaptureSession  # noqa: E402
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft  # noqa: E402
 
 SKILL_ID = "ovos-skill-speedtest.openvoiceos"
 LANG = "en-US"
@@ -63,7 +64,7 @@ SPEEDTEST_INTENT = f"{SKILL_ID}:speedtest_intent"
 def _session(tag: str) -> Session:
     session = Session(f"e2e-en_us-speedtest-{tag}")
     session.lang = LANG
-    session.pipeline = PADACIOSO_PIPELINE
+    session.pipeline = PIPELINE
     return session
 
 
@@ -80,7 +81,7 @@ class _SpeedtestRoutingMixin:
 
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID])
+        cls.minicroft = get_prototype_minicroft([SKILL_ID], lang=LANG)
 
     @classmethod
     def tearDownClass(cls):
@@ -103,11 +104,7 @@ class _SpeedtestRoutingMixin:
     def assertRoutesToSpeedtest(self, utterance: str):
         messages = self._capture(utterance)
         types = [m.msg_type for m in messages]
-        self.assertIn(
-            SPEEDTEST_INTENT, types,
-            f"expected {SPEEDTEST_INTENT!r} to be matched for {utterance!r}, "
-            f"got {types}",
-        )
+        TALLY.assert_routed(utterance, SPEEDTEST_INTENT, types)
         spoken = self._spoken(messages)
         self.assertTrue(
             any("50.00" in utt for utt in spoken),
