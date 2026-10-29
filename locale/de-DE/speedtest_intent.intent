@@ -1,7 +1,7 @@
 (starte|beginne|mache) (einen|den|) (Geschwindigkeitstest|Internet-Geschwindigkeitstest|Internettest|Verbindungstest)
 führe (einen|den|) (Geschwindigkeitstest|Internet-Geschwindigkeitstest|Internettest|Verbindungstest) durch
-(teste|prüfe|miss) meine (Internetverbindung|WLAN-Verbindung|Internetgeschwindigkeit|WLAN-Geschwindigkeit)
-wie schnell ist meine (Internetverbindung|WLAN-Verbindung)
+(teste|prüfe|miss) meine (Internetverbindung|Internetgeschwindigkeit)
+wie schnell ist meine (Internetverbindung|Internetgeschwindigkeit)
 wie hoch ist meine (Downloadgeschwindigkeit|Uploadgeschwindigkeit)
 wie schnell ist meine (Downloadgeschwindigkeit|Uploadgeschwindigkeit)
 Internet Speedtest durchführen
@@ -26,3 +26,4 @@ wie viele Mbit/s erreiche ich beim Herunterladen von Dateien
 in welchem Tempo lade ich Dateien aus dem Internet herunter
 mache einen Test der Breitbandverbindung
 ist die Geschwindigkeit meiner Internetverbindung gut
+wie schnell ist mein WLAN-Internet heute

@@ -58,8 +58,8 @@ def test_golden_row_routes_to_its_intent(engine_for, row):
 @pytest.mark.parametrize("row", NEGATIVE, ids=_row_id)
 def test_negative_row_reaches_no_intent_of_the_skill(engine_for, row):
     fired = _routed(engine_for(row["lang"]), row["utterance"], row["lang"])
-    TALLY.assert_not_routed(row["utterance"],
-                            [t for t in fired if t.startswith(f"{SKILL_ID}:")], fired)
+    claimed = [t for t in fired if t.startswith(f"{SKILL_ID}:")]
+    assert not claimed, f"{row['utterance']!r} is not about network speed but {claimed} claimed it"
 
 
 LOCALE_DIR = END2END_DIR.parents[1] / "locale"
