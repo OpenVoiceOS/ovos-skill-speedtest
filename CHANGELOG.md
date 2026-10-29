@@ -1,8 +1,8 @@
 # Changelog
 
-## [0.10.0a6](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.10.0a6) (2026-10-29)
+## [0.10.0a7](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.10.0a7) (2026-10-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.10.0a5...0.10.0a6)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.10.0a5...0.10.0a7)
 
 **Merged pull requests:**
 
