@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Puoi misurare la velocità della mia connessione", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Quanto va veloce il mio internet adesso", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Fai uno speedtest", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Qual è la mia velocità di download", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Quanti mega ho in upload", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Controlla se il mio wifi è veloce", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Mi sembra che internet sia lento, fai una verifica", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Avvia una misurazione della banda", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Vorrei sapere a che velocità naviga la mia linea", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Testa la mia rete", "lang": "it-IT", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}

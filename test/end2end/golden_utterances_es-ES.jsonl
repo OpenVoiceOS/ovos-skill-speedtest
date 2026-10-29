@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Mide la velocidad de mi conexión a internet", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "A qué velocidad va mi wifi ahora mismo", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Haz un test de velocidad, por favor", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Quiero saber cuántos megas tengo de bajada", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Cuál es mi velocidad de subida", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Comprueba si mi internet va rápido", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Ejecuta un speedtest", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Mi conexión va lenta, puedes revisarla", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Qué velocidad de descarga tengo ahora", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Analiza el rendimiento de mi línea de internet", "lang": "es-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
