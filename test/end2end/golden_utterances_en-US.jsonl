@@ -26,3 +26,22 @@
 {"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "how many mbps do I have", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
 {"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "do a speedtest", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
 {"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "find out how fast my broadband really is", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "run a speed test", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "start a speed test", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "perform an internet speed test", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "execute an internet connection test", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "run an internet test", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "how fast is my internet", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "how fast is my wifi", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "how fast is my connection", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what is my download speed", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what is my upload speed", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "benchmark my internet connection", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "measure my internet speed", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "check my wifi connection", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "test my internet connection", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "what's my internet speed", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "is my internet fast", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "can you test my internet speed", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "please run a speed test", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "how's my internet connection", "lang": "en-US", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
