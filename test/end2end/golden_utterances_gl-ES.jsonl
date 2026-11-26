@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Podes medir a velocidade da miña conexión", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Que velocidade ten agora o meu wifi", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Fai un speedtest", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Cantos megas teño de baixada", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Cal é a miña velocidade de subida", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Comproba se o meu internet vai rápido", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "A internet vai lenta, revísaa", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Quero saber a velocidade de descarga que teño", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Executa unha medición do ancho de banda", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Que rendemento ten a miña liña de internet", "lang": "gl-ES", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}

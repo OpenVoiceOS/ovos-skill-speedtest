@@ -1,0 +1,12 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Kannst du bitte meine Internetgeschwindigkeit prüfen", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Wie schnell ist mein Internet gerade", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Mach mal einen Speedtest", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Ich möchte wissen, wie viel Mbit/s ich gerade habe", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Welche Downloadrate habe ich im Moment", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Wie flott ist mein WLAN heute", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Starte bitte eine Messung meiner Leitung", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Prüf mal, wie gut meine Verbindung ins Netz ist", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Teste die Geschwindigkeit meines Internetanschlusses", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Mit welcher Geschwindigkeit lade ich Dateien hoch", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Mein Internet kommt mir langsam vor, miss es bitte nach", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Lass einen Bandbreitentest laufen", "lang": "de-DE", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}

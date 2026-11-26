@@ -1,0 +1,10 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Jeg er nysgerrig på hvor hurtigt mit internet kører", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Hvor hurtigt er mit wifi lige nu", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Lav en speedtest", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Hvor mange megabit har jeg til download", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Hvor hurtigt kan jeg sende filer", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Tjek om mit internet kører hurtigt", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Nettet virker langsomt, kan du undersøge det", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Jeg vil gerne vide min hastighed på nettet", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Start en måling af min båndbredde", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Hvordan klarer min forbindelse sig", "lang": "da-DK", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}

@@ -1,0 +1,11 @@
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Peux-tu tester ma connexion internet", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Quel est mon débit en ce moment", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Fais un test de ma bande passante", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Est-ce que mon wifi est rapide aujourd'hui", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Je voudrais connaître ma vitesse de téléchargement", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "À quelle vitesse j'envoie des fichiers", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Mesure le débit de ma box s'il te plaît", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Lance un speedtest", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Ma connexion me paraît lente, vérifie-la", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Combien de mégabits j'ai en descendant", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-speedtest.openvoiceos", "utterance": "Évalue la rapidité de mon accès internet", "lang": "fr-FR", "intent_label": "speedtest_intent", "needs_manual": true, "machine_generated": true}
