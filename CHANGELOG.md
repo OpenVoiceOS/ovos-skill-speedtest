@@ -1,8 +1,20 @@
 # Changelog
 
+## [0.10.0a8](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.10.0a8) (2026-11-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.10.0a7...0.10.0a8)
+
+**Merged pull requests:**
+
+- ci: run the ovoscope suite on dev [\#102](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/102) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.10.0a7](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.10.0a7) (2026-10-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.10.0a5...0.10.0a7)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.10.0a6...0.10.0a7)
+
+## [0.10.0a6](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.10.0a6) (2026-10-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.10.0a5...0.10.0a6)
 
 **Merged pull requests:**
 
@@ -448,17 +460,9 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.2.5a1...V0.2.5)
 
-**Merged pull requests:**
-
-- Release 0.2.5a1 [\#12](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/12) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.2.5a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.2.5a1) (2024-11-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.2.4a2...0.2.5a1)
-
-**Merged pull requests:**
-
-- fix: skill json [\#10](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/10) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.2.4a2](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.2.4a2) (2024-11-15)
 
@@ -467,11 +471,6 @@
 ## [0.2.4a1](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.2.4a1) (2024-11-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-speedtest/compare/0.2.3...0.2.4a1)
-
-**Merged pull requests:**
-
-- Release 0.2.4a2 [\#11](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/11) ([github-actions[bot]](https://github.com/apps/github-actions))
-- de-de/translate [\#9](https://github.com/OpenVoiceOS/ovos-skill-speedtest/pull/9) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.2.3](https://github.com/OpenVoiceOS/ovos-skill-speedtest/tree/0.2.3) (2024-11-01)
 
